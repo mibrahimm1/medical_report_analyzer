@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+ultralytics
+pymupdf
+langchain
+langchain-google-genai
+opencv-python-headless
+pydantic
+pydantic-settings

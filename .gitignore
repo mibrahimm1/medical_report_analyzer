@@ -1,0 +1,47 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+.next/
+out/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# ========================
+# IDE & OS
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ========================
+# Misc
+# ========================
+*.pem
+.env.local
+.env.*.local
+
+# ========================
+# Notebooks (optional – keep the .ipynb but ignore checkpoints)
+# ========================
+.ipynb_checkpoints/
