@@ -2,13 +2,15 @@
 
 An AI-powered web application that combines **Computer Vision** and **Natural Language Processing** to analyze Chest X-Ray images alongside clinical reports. The system detects visual anomalies using a fine-tuned **YOLOv8** model, cross-references them with parsed clinical text, and generates a patient-friendly summary via **Google Gemini**.
 
-> **Live Demo**: _Coming Soon_
+> **Live Demo**: [Here](https://medical-report-analyzer-pi.vercel.app/)
 
 ---
 
 ## 📸 Screenshots
 
-_Add screenshots of your application here after deployment._
+![alt text](screenshots/image.png)
+![alt text](screenshots/image-1.png)
+![alt text](screenshots/image-2.png)
 
 ---
 
@@ -261,7 +263,7 @@ The FastAPI backend is deployed to **Render** using Docker:
 
 ---
 
-## 🎨 Design System
+## 🎨 Design
 
 | Token | Value | Usage |
 |---|---|---|
