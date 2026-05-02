@@ -279,6 +279,30 @@ This application is built for **educational and portfolio demonstration purposes
 
 ---
 
+## 🚀 Deployment
+
+This project is configured for easy deployment using **Render** (Backend) and **Vercel** (Frontend).
+
+### Backend (Render)
+1. Create a new **Web Service** on Render.
+2. Connect your GitHub repository.
+3. Set the **Root Directory** to `backend`.
+4. Select **Docker** as the runtime.
+5. Add the following **Environment Variables**:
+   - `GOOGLE_API_KEY`: Your Google Gemini API Key.
+   - `FRONTEND_URL`: The URL of your deployed frontend (e.g., `https://your-app.vercel.app`).
+6. Deploy the service. Note your service URL (e.g., `https://medical-api.onrender.com`).
+
+### Frontend (Vercel)
+1. Create a new **Project** on Vercel.
+2. Connect your GitHub repository.
+3. Set the **Root Directory** to `frontend`.
+4. Add the following **Environment Variable**:
+   - `NEXT_PUBLIC_API_URL`: The URL of your Render backend.
+5. Deploy the project.
+
+---
+
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
