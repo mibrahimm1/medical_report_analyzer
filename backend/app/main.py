@@ -5,14 +5,11 @@ from app.config import settings
 
 app = FastAPI(title="Multimodal Medical Report Analyzer API")
 
-# Configure CORS - FRONTEND_URL env var controls allowed origins
-# Set to your Vercel URL in production, defaults to '*' for local dev
-allow_origins = [settings.frontend_url] if settings.frontend_url != "*" else ["*"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allow_origins,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
